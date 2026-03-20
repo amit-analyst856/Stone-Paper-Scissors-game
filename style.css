@@ -59,3 +59,102 @@ img{
     padding: 1rem;
     border-radius: 1rem;
 }
+
+/* Tablet (max-width: 768px) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+        height: 4rem;
+        line-height: 4rem;
+    }
+
+    .choices {
+        gap: 2rem;
+        margin: 3rem;
+    }
+
+    .choice {
+        height: 120px;
+        width: 120px;
+    }
+
+    img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .score-board {
+        font-size: 1.5rem;
+        gap: 3rem;
+    }
+
+    #user-score, #comp-score {
+        font-size: 3rem;
+    }
+
+    #msg {
+        font-size: 1.5rem;
+        padding: 0.8rem;
+    }
+}
+
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2rem;
+        height: 3.5rem;
+        line-height: 3.5rem;
+    }
+
+    .choices {
+        flex-direction: column;
+        gap: 1.5rem;
+        margin: 2rem;
+    }
+
+    .choice {
+        height: 100px;
+        width: 100px;
+    }
+
+    img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .score-board {
+        flex-direction: column;
+        gap: 2rem;
+        font-size: 1.2rem;
+    }
+
+    #user-score, #comp-score {
+        font-size: 2.5rem;
+    }
+
+    .msg-container {
+        margin: 2rem;
+    }
+
+    #msg {
+        font-size: 1.2rem;
+        padding: 0.6rem;
+    }
+}
+
+/* Large screens (laptop/desktop) */
+@media (min-width: 1024px) {
+    .choices {
+        gap: 4rem;
+    }
+
+    .choice {
+        height: 180px;
+        width: 180px;
+    }
+
+    img {
+        height: 160px;
+        width: 160px;
+    }
+}
